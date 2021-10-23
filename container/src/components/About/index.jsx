@@ -1,7 +1,11 @@
-import React from "react";
+import { Fragment } from "react";
 import MicroFrontend from "../../MicroFrontend";
 function About() {
-  return <MicroFrontend host="http://localhost:5000" name="banner" />;
+  return (
+    <Fragment>
+      <MicroFrontend host="http://localhost:3000" name="banner" />
+    </Fragment>
+  );
 }
 
 export default About;

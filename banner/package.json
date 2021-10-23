@@ -2,9 +2,9 @@
   "name": "frontend",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3000",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview --port 3000"
   },
   "dependencies": {
     "@podium/browser": "^1.2.1",

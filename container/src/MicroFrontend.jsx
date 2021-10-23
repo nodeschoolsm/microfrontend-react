@@ -12,7 +12,6 @@ function MicroFrontend({ name, host }) {
       messageBus.publish("box", "message", "mount");
     };
     if (!!document.getElementById(scriptId)) {
-      console.log("ya existe ese JavaScript");
       notifyRender();
       return;
     } else {

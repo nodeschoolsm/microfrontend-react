@@ -3,9 +3,6 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./navbar.css";
 const About = lazy(() => import("./components/About"));
 
-function Home() {
-  return <h1>Home</h1>;
-}
 function App() {
   return (
     <Router>
@@ -29,11 +26,15 @@ function App() {
             <About />
           </Suspense>
         </Route>
-        <Route path="/users">
-          <h1>Users</h1>
-        </Route>
+
+        <Route path="/users"></Route>
         <Route path="/">
-          <Home />
+          <h1>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero,
+            iusto atque, tempore consequuntur quibusdam laboriosam eligendi
+            fugiat recusandae voluptatum repellendus dolore velit commodi. Minus
+            sunt rerum voluptatibus explicabo eius maxime.
+          </h1>
         </Route>
       </Switch>
     </Router>
