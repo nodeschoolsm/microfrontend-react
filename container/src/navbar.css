@@ -1,0 +1,17 @@
+/* SIDEBAR DESKTOP */
+
+.wrapper-left {
+  display: flex;
+  position: relative;
+}
+
+a {
+  color: aliceblue;
+}
+.wrapper-left .sidebar-left {
+  position: fixed;
+  width: 240px;
+  height: 100%;
+  background-color: #4c0dc0;
+  color: aliceblue;
+}
